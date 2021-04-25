@@ -90,6 +90,7 @@ namespace Codesanook.EFNote.Controllers
                 Title = viewModel.Title,
                 Content = viewModel.Content,
                 NotebookId = viewModel.NotebookId,
+                Content = viewModel.Content + DateTime.UtcNow,
                 Tags = allTags
             };
 
